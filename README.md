@@ -76,19 +76,19 @@ Reminders when using "Relative File Paths":
 - If you directly want to go to the Root Directory use:
   - /
 
-The translation of the relative path below is: "go back to the Root Directory, then go to the folder Images, and then select the File image-header-mobile.jpg".
+The translation of the relative path below is: "leave this current Directory, then go to the folder images, and then select the file image-header-mobile.jpg".
 
 ```SCSS
 
 .card_image {
-      background-image: url("/images/image-header-mobile.jpg");
+      background-image: url("../images/image-header-mobile.jpg");
       background-size: cover;
       height: 15rem;
       width: 100%;
       border-radius: 8px 8px 0 0;
       position: relative;
       @media screen and (min-width: $desktop) {
-        background-image: url("/images/image-header-desktop.jpg");
+        background-image: url("../images/image-header-desktop.jpg");
         grid-column: 2/3;
         grid-row: 1/2;
         height: 100%;
