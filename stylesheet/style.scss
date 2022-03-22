@@ -69,14 +69,14 @@ body {
       max-width: 68.75rem;
     }
     .card_image {
-      background-image: url("../images/image-header-mobile.jpg");
+      background-image: url("../images/image-header-mobile.JPG");
       background-size: cover;
       height: 15rem;
       width: 100%;
       border-radius: 8px 8px 0 0;
       position: relative;
       @media screen and (min-width: $desktop) {
-        background-image: url("../images/image-header-desktop.jpg");
+        background-image: url("../images/image-header-desktop.JPG");
         grid-column: 2/3;
         grid-row: 1/2;
         height: 100%;

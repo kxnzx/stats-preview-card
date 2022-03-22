@@ -41,7 +41,7 @@ body .card_container {
   }
 }
 body .card_container .card_image {
-  background-image: url("../images/image-header-mobile.jpg");
+  background-image: url("../images/image-header-mobile.JPG");
   background-size: cover;
   height: 15rem;
   width: 100%;
@@ -50,7 +50,7 @@ body .card_container .card_image {
 }
 @media screen and (min-width: 1024px) {
   body .card_container .card_image {
-    background-image: url("../images/image-header-desktop.jpg");
+    background-image: url("../images/image-header-desktop.JPG");
     grid-column: 2/3;
     grid-row: 1/2;
     height: 100%;
